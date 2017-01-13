@@ -1,3 +1,11 @@
 header {
   text-align: center;
 }
+
+.shown {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
