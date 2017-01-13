@@ -4,7 +4,13 @@ var design = function(questionOne) {
   if (questionOne === "Front-end") {
     return true;
   }
-}
+};
+
+var cSharp = function(questionTwo, questionThree) {
+  if (questionTwo === "Enterprise companies, large businesses" && questionThree === "Business Software") {
+    return true;
+  }
+};
 
 
 // Front-end code effecting what the user will see here:
@@ -32,9 +38,14 @@ $(document).ready(function() {
     $("#results").removeClass();
     $("#results").addClass(".shown");
 
-    if (design(question1Input) === true) {
+
+    if (design(question1Input)) {
       $("#css-design").removeClass();
       $("#css-design").addClass(".shown");
+     }
+     else if (cSharp(question2Input, question3Input)) {
+        $("#cSharp-NET").removeClass();
+        $("#cSharp-NET").addClass(".shown");
     }
 
     event.preventDefault();
