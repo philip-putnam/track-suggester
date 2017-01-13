@@ -1,3 +1,14 @@
+// Back-end, logic code, here:
+
+var design = function(questionOne) {
+  if (questionOne === "Front-end") {
+    return true;
+  }
+}
+
+
+// Front-end code effecting what the user will see here:
+
 $(document).ready(function() {
   $(".btn#submitForm").click(function(event) {
     var nameInput = $("input#name").val();
@@ -21,6 +32,10 @@ $(document).ready(function() {
     $("#results").removeClass();
     $("#results").addClass(".shown");
 
+    if (design(question1Input) === true) {
+      $("#css-design").removeClass();
+      $("#css-design").addClass(".shown");
+    }
 
     event.preventDefault();
   });
