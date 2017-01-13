@@ -1,25 +1,23 @@
-# _{Application Name}_
+# _Track Selector_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This website will assist a user with choosing an Epicodus program track, 01/13/2017_
 
 #### By _**Philip Putnam**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Utilizing bootstrap and jquery form submittal and branching, this website will request input from the user regarding their computer programming and/or web development preferences. After completed submission of the form on the website a suggestion of which path to take at Epicdous will be suggested._
 
 ## Setup/Installation Requirements
 
 ### Method 1:
-* _Using a web browser or terminal, clone the repository at https://github.com/philip-putnam/*PROJECT-NAME* _
+* _Using a web browser or terminal, clone the repository at https://github.com/philip-putnam/track-suggester _
 * _In the project folder open the index.html file with a compatible web browser_
 * _Fill in the form on the webpage and hit submit!_
 
 ### Method 2:
-* _Using a compatible web browser, navigate to https://philip-putnam.github.io/*PROJECT-NAME*/_
+* _Using a compatible web browser, navigate to https://philip-putnam.github.io/track-suggester/_
 * _Fill in the form on the webpage and hit submit!_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
