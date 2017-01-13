@@ -12,6 +12,12 @@ var cSharp = function(questionTwo, questionThree) {
   }
 };
 
+var jsAndroid = function(questionThree, questionFour) {
+  if (questionThree === "Android Applications" || questionFour === "androidInterface") {
+    return true;
+  }
+};
+
 
 // Front-end code effecting what the user will see here:
 
@@ -42,10 +48,12 @@ $(document).ready(function() {
     if (design(question1Input)) {
       $("#css-design").removeClass();
       $("#css-design").addClass(".shown");
-     }
-     else if (cSharp(question2Input, question3Input)) {
-        $("#cSharp-NET").removeClass();
-        $("#cSharp-NET").addClass(".shown");
+    } else if (cSharp(question2Input, question3Input)) {
+      $("#cSharp-NET").removeClass();
+      $("#cSharp-NET").addClass(".shown");
+    } else if (jsAndroid(question3Input, question4Input)) {
+      $("#java-android").removeClass();
+      $("#java-android").addClass(".shown");
     }
 
     event.preventDefault();
