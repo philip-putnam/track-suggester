@@ -1,4 +1,4 @@
-# _Track Selector_
+# _Track Suggester_
 
 #### _This website will assist a user with choosing an Epicodus program track, 01/13/2017_
 
@@ -11,7 +11,7 @@ _Utilizing bootstrap and jquery form submittal and branching, this website will 
 ## Setup/Installation Requirements
 
 ### Method 1:
-* _Using a web browser or terminal, clone the repository at https://github.com/philip-putnam/track-suggester _
+* _Using a web browser or terminal, clone the repository at https://github.com/philip-putnam/track-suggester_
 * _In the project folder open the index.html file with a compatible web browser_
 * _Fill in the form on the webpage and hit submit!_
 
@@ -29,14 +29,14 @@ _Please e-mail Philip Putnam, at staplehead989@gmail.com for support with the we
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_JavaScript_
-_Bootstrap_
-_jQuery_
-_Atom_
-_Git_
-_GitHub_
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _Bootstrap_
+* _jQuery_
+* _Atom_
+* _Git_
+* _GitHub_
 
 ### License
 

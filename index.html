@@ -17,19 +17,55 @@
 
       <div class="blank">
         <form>
+
           <div class="row">
+
             <div class="col-md-4">
               <div class="form-group">
-                <label for="name">Your name:</label>
-                <input id="name" class="form-control" type="text">
+                <label for="name">Name:</label>
+                <input id="name" class="form-control" type="text" placeholder="Type your name here">
               </div>
-            </div>
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-4">
             </div>
 
           </div>
+
+          <h4>Question #1: Back-end or Front-end developer?</h4>
+          <p>At Epicodus, all potential students are encouraged to adopt an understanding that it is not necessarily <em>which</em> track or course you take but "learning how to learn". This means that if you commit to any offered course you build habits that will allow you to learn other computing languages. Keeping this in mind, one of the biggest differences is that of front-end and back-end developers. Front-end developers work on creating the overall look, or design, of a website or application. This might concern the user's experience when visually interacting with the program along with the presentation and orientation. Back-end programmers are more behind the scenes, and concerned with the logic of the applicaiton or website, possibly taking in the user input and manipulating the data.</p>
+          <h5><strong>Which appeals more to you?</strong></h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="frontOrBackEnd" value="Back-end">
+              Back-end Development, i.e. behind the scenes, logic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="frontOrBackEnd" value="Front-end">
+              Front-end Development, i.e. design, webpage layout
+            </label>
+          </div>
+
+          <h4>Question #2: Work Preference</h4>
+          <p>As Epicodus is a vocational school, its intention is to give you marketable skills that will assist with acquiring a job soon after graduating. With that being said, some languages are utilized more often by larger companies (i.e.,Enterprise) that have been around for a long time and others more often by younger companies (i.e., smaller startups). Please note that this is absolutely not a hard rule, many companies deploy multiple types of technologies with their websites, applications, and programs. It is very likely that if you took one track through Epicodus that the company that hires you may want you to learn another.</p>
+          <h5><strong>What type of company experience do you prefer?</strong><h5>
+
+          <div class="row">
+            <div class="col-md-5">
+              <select class="form-control">
+                <option></option>
+                <option>Enterprise companies, large businesses</option>
+                <option>Smaller, younger companies</option>
+                <option>
+              </select>
+            </div>
+          </div>
+
+          <h4>Question #3: Application and/or Technology Preference</h4>
+          <p>The different computer programming languages offered at Epicodus can be utilized in many different ways to create a vast array of different programs. Though this is true for each language, there are some differences between which is often used in each case that might dictate what type of work you are doing.</p>
+          <h5><strong>What type of work do you prefer?</strong></h5>
+          
+
+          <button class="btn" type="submit">Go!</button>
 
         </form>
       </div>
