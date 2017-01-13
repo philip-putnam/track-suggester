@@ -18,6 +18,12 @@ var jsAndroid = function(questionThree, questionFour) {
   }
 };
 
+var rubyRails = function(questionThree, questionFour) {
+  if (questionThree === "Web Applications" || questionFour === "userInteractive") {
+      return true;
+  }
+};
+
 
 // Front-end code effecting what the user will see here:
 
@@ -54,6 +60,9 @@ $(document).ready(function() {
     } else if (jsAndroid(question3Input, question4Input)) {
       $("#java-android").removeClass();
       $("#java-android").addClass(".shown");
+    } else if (rubyRails(question3Input, question4Input)) {
+      $("#ruby-rails").removeClass();
+      $("#ruby-rails").addClass(".shown");
     }
 
     event.preventDefault();
