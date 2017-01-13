@@ -34,13 +34,13 @@
           <h5><strong>Which appeals more to you?</strong></h5>
           <div class="radio">
             <label>
-              <input type="radio" name="frontOrBackEnd" value="Back-end">
+              <input type="radio" name="question1" value="Back-end">
               Back-end Development, i.e. behind the scenes, logic
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="frontOrBackEnd" value="Front-end">
+              <input type="radio" name="question1" value="Front-end">
               Front-end Development, i.e. design, webpage layout
             </label>
           </div>
@@ -51,7 +51,7 @@
 
           <div class="row">
             <div class="col-md-5">
-              <select class="form-control">
+              <select class="form-control" id="question2">
                 <option></option>
                 <option>Enterprise companies, large businesses</option>
                 <option>Smaller, younger companies</option>
@@ -118,6 +118,11 @@
 
       <div id="results" class="hidden">
         <h3><span class="name"></span>, here are your results!</h3>
+        <p>Question #1: <span class="question1"></span></p>
+        <p>Question #2: <span class="question2"></span></p>
+        <p>Question #3: <span class="question3"></span></p>
+        <p>Question #4: <span class="question4"></span></p>
+        <p>Question #5: <span class="question5"></span></p>
       </div>
 
 
