@@ -24,6 +24,22 @@ var rubyRails = function(questionThree, questionFour) {
   }
 };
 
+var phpDrupal = function(questionFour) {
+  if (questionFour === "contentHeavy") {
+    return true;
+  }
+};
+
+var locale = function(questionFive) {
+  if (questionFive === "Not yet") {
+    return 0;
+  } else if (questionFive === "Portland, OR") {
+    return 1;
+  } else if (questionFive === "Seattle, WA") {
+    return 2;
+  }
+};
+
 
 // Front-end code effecting what the user will see here:
 
@@ -63,7 +79,28 @@ $(document).ready(function() {
     } else if (rubyRails(question3Input, question4Input)) {
       $("#ruby-rails").removeClass();
       $("#ruby-rails").addClass(".shown");
+    } else if (phpDrupal(question4Input)) {
+      $("#php-drupal").removeClass();
+      $("#php-drupal").addClass(".shown");
+    } else {
+      $("#other").removeClass();
+      $("#other").addClass(".shown");
     }
+
+    if (locale(question5Input) === 1 || locale(question5Input) === 2) {
+      $("#location").removeClass();
+      $("#location").addClass(".shown");
+    } 
+
+    if (locale(question5Input) === 1) {
+      $("#portland").removeClass();
+      $("#portland").addClass(".shown");
+    } else if (locale(question5Input) === 2) {
+      $("#seattle").removeClass();
+      $("#seattle").addClass(".shown");
+    }
+
+
 
     event.preventDefault();
   });
