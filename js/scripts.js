@@ -60,7 +60,6 @@ $(document).ready(function() {
     $(".question4").text(question4Input);
     $(".question5").text(question5Input);
 
-    // $("#blank").removeClass();
     $("#blank").hide();
 
     $("#results").removeClass();
