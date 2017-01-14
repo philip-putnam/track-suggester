@@ -1,5 +1,13 @@
+body {
+  background-color: lightblue;
+}
+
 header {
   text-align: center;
+}
+
+h4 {
+  font-weight: 800;
 }
 
 .shown {
@@ -8,4 +16,8 @@ header {
 
 .hidden {
   display: none;
+}
+
+.container {
+  margin-bottom: 10px;
 }

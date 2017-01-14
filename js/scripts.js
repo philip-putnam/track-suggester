@@ -60,7 +60,7 @@ $(document).ready(function() {
     $(".question4").text(question4Input);
     $(".question5").text(question5Input);
 
-    $("#blank").removeClass();
+    // $("#blank").removeClass();
     $("#blank").hide();
 
     $("#results").removeClass();
@@ -90,7 +90,7 @@ $(document).ready(function() {
     if (locale(question5Input) === 1 || locale(question5Input) === 2) {
       $("#location").removeClass();
       $("#location").addClass(".shown");
-    } 
+    }
 
     if (locale(question5Input) === 1) {
       $("#portland").removeClass();
@@ -99,8 +99,6 @@ $(document).ready(function() {
       $("#seattle").removeClass();
       $("#seattle").addClass(".shown");
     }
-
-
 
     event.preventDefault();
   });

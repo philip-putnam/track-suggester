@@ -10,107 +10,109 @@
 
   <body>
     <div class="container">
-      <header>
-        <h1>Epicodus Track Suggester</h1>
-        <h3>Please fill out the form for a suggestion on which course-track you should take at Epicodus!</h3>
-      </header>
-
+      <div class="well">
+        <header>
+          <h1>Epicodus Track Suggester</h1>
+          <h3>Please fill out the form for a suggestion on which course-track you should take at Epicodus!</h3>
+        </header>
+      </div>
+      
       <div id="blank">
         <form>
 
-          <div class="row">
+            <div class="row">
 
-            <div class="col-md-4">
-              <div class="form-group">
-                <label for="name">Name:</label>
-                <input id="name" class="form-control" type="text" placeholder="Type your name here">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input id="name" class="form-control" type="text" placeholder="Type your name here">
+                </div>
               </div>
+
             </div>
 
-          </div>
-
-          <h4>Question #1: Back-end or Front-end developer?</h4>
-          <p>At Epicodus, all potential students are encouraged to adopt an understanding that it is not necessarily <em>which</em> track or course you take but "learning how to learn". This means that if you commit to any offered course you build habits that will allow you to learn other computing languages. Keeping this in mind, one of the biggest differences is that of front-end and back-end developers. Front-end developers work on creating the overall look, or design, of a website or application. This might concern the user's experience when visually interacting with the program along with the presentation and orientation. Back-end programmers are more behind the scenes, and concerned with the logic of the applicaiton or website, possibly taking in the user input and manipulating the data.</p>
-          <h5><strong>Which appeals more to you?</strong></h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1" value="Back-end">
-              Back-end Development, i.e. behind the scenes, logic
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1" value="Front-end">
-              Front-end Development, i.e. design, webpage layout
-            </label>
-          </div>
-
-          <h4>Question #2: Work Preference</h4>
-          <p>As Epicodus is a vocational school, its intention is to give you marketable skills that will assist with acquiring a job soon after graduating. With that being said, some languages are utilized more often by larger companies (i.e.,Enterprise) that have been around for a long time and others more often by younger companies (i.e., smaller startups). Please note that this is absolutely not a hard rule, many companies deploy multiple types of technologies with their websites, applications, and programs. It is very likely that if you took one track through Epicodus that the company that hires you may want you to learn another.</p>
-          <h5><strong>What type of company experience do you prefer?</strong><h5>
-
-          <div class="row">
-            <div class="col-md-5">
-              <select class="form-control" id="question2">
-                <option></option>
-                <option>Enterprise companies, large businesses</option>
-                <option>Smaller, younger companies</option>
-              </select>
+            <h4>Question #1: Back-end or Front-end developer?</h4>
+            <p>At Epicodus, all potential students are encouraged to adopt an understanding that it is not necessarily <em>which</em> track or course you take but "learning how to learn". This means that if you commit to any offered course you build habits that will allow you to learn other computing languages. Keeping this in mind, one of the biggest differences is that of front-end and back-end developers. Front-end developers work on creating the overall look, or design, of a website or application. This might concern the user's experience when visually interacting with the program along with the presentation and orientation. Back-end programmers are more behind the scenes, and concerned with the logic of the applicaiton or website, possibly taking in the user input and manipulating the data.</p>
+            <h5><strong>Which appeals more to you?</strong></h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question1" value="Back-end">
+                Back-end Development, i.e. behind the scenes, logic
+              </label>
             </div>
-          </div>
-
-          <h4>Question #3: Application and/or Technology Preference</h4>
-          <p>The different computer programming languages offered at Epicodus can be utilized in many different ways to create a vast array of different programs. Though this is true for each language, there are some differences between which is often used in each case that might dictate what type of work you are doing.</p>
-          <h5><strong>What type of work do you prefer?</strong></h5>
-          <div class="row">
-            <div class="col-md-5">
-              <select class="form-control" id="question3">
-                <option></option>
-                <option>Websites</option>
-                <option>Android Applications</option>
-                <option>Web Applications</option>
-                <option>Business Software</option>
-              </select>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question1" value="Front-end">
+                Front-end Development, i.e. design, webpage layout
+              </label>
             </div>
-          </div>
 
-          <h4>Question #4: What type of website would you prefer to work on?</h4>
-          <p>Would you enjoy working on a site that has little user interactivity but is content-heavy? Or are you all about the interactivity of those visiting your webpage? Or maybe you prefer working on an Android interface?
-          <h5><strong>Which sounds ideal to you?</strong></h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question4" value="contentHeavy">
-              Content-heavy, little user interactivity, content management system
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question4" value="userInteractive">
-              User interactive, forms for users to fill out and submit
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question4" value="androidInterface">
-              Android specific technology, high-performance applications
-            </label>
-          </div>
+            <h4>Question #2: Work Preference</h4>
+            <p>As Epicodus is a vocational school, its intention is to give you marketable skills that will assist with acquiring a job soon after graduating. With that being said, some languages are utilized more often by larger companies (i.e.,Enterprise) that have been around for a long time and others more often by younger companies (i.e., smaller startups). Please note that this is absolutely not a hard rule, many companies deploy multiple types of technologies with their websites, applications, and programs. It is very likely that if you took one track through Epicodus that the company that hires you may want you to learn another.</p>
+            <h5><strong>What type of company experience do you prefer?</strong><h5>
 
-          <h4>Question #5: Is Epicodus currently in a city near you?</h4>
-          <div class="row">
-            <div class="col-md-5">
-              <div class="form-group">
-                <select class="form-control" id="question5">
+            <div class="row">
+              <div class="col-md-5">
+                <select class="form-control" id="question2">
                   <option></option>
-                  <option>Portland, OR</option>
-                  <option>Seattle, WA</option>
-                  <option>Not yet</option>
+                  <option>Enterprise companies, large businesses</option>
+                  <option>Smaller, younger companies</option>
                 </select>
               </div>
             </div>
-          </div>
 
-          <button class="btn" id="submitForm" type="submit">Go!</button>
+            <h4>Question #3: Application and/or Technology Preference</h4>
+            <p>The different computer programming languages offered at Epicodus can be utilized in many different ways to create a vast array of different programs. Though this is true for each language, there are some differences between which is often used in each case that might dictate what type of work you are doing.</p>
+            <h5><strong>What type of work do you prefer?</strong></h5>
+            <div class="row">
+              <div class="col-md-5">
+                <select class="form-control" id="question3">
+                  <option></option>
+                  <option>Websites</option>
+                  <option>Android Applications</option>
+                  <option>Web Applications</option>
+                  <option>Business Software</option>
+                </select>
+              </div>
+            </div>
+
+            <h4>Question #4: What type of website would you prefer to work on?</h4>
+            <p>Would you enjoy working on a site that has little user interactivity but is content-heavy? Or are you all about the interactivity of those visiting your webpage? Or maybe you prefer working on an Android interface?
+            <h5><strong>Which sounds ideal to you?</strong></h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question4" value="contentHeavy">
+                Content-heavy, little user interactivity, content management system
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question4" value="userInteractive">
+                User interactive, forms for users to fill out and submit
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question4" value="androidInterface">
+                Android specific technology, high-performance applications
+              </label>
+            </div>
+
+            <h4>Question #5: Is Epicodus currently in a city near you?</h4>
+            <div class="row">
+              <div class="col-md-5">
+                <div class="form-group">
+                  <select class="form-control" id="question5">
+                    <option></option>
+                    <option>Portland, OR</option>
+                    <option>Seattle, WA</option>
+                    <option>Not yet</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn" id="submitForm" type="submit">Go!</button>
 
         </form>
       </div>
